@@ -1,5 +1,6 @@
 .three-cogs {
-  position: relative; }
+  position: relative;
+  color: #86bafb; }
   .three-cogs > .fa:nth-child(1) {
     animation-duration: 4s; }
   .three-cogs > .fa:nth-child(2) {
@@ -10,20 +11,71 @@
     animation-duration: 4s; }
 
 .construction-text {
-  font-family: 'Roboto Slab', serif;
   font-size: 16px; }
 
+.notification-wrapper {
+  display: flex; }
+  .notification-wrapper > .subscription-email {
+    border: none;
+    color: black;
+    width: 250px;
+    height: 35px;
+    margin-right: 0;
+    padding-right: 0;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-left: 20px; }
+  .notification-wrapper > .subscription-button {
+    border: none;
+    margin-left: 0;
+    padding-left: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 35px;
+    width: 100px;
+    background-color: black; }
+
+.social-media-wrapper > .social-media-icon {
+  padding: 5px; }
+
+.timer {
+  display: inline-flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px; }
+  .timer > div {
+    margin: 5px;
+    padding: 10px 30px 10px 30px; }
+    .timer > div > .timer-element {
+      margin: 0;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 25%;
+      width: 80px;
+      height: 80px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      font-size: 40px; }
+
 div {
-  margin: 20px; }
+  margin: 10px; }
 
 html,
 body {
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  font-family: 'Roboto Slab', serif; }
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap; }
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: linear-gradient(rgba(0, 0, 255, 0.3), rgba(255, 0, 0, 0.3)), url("../images/constanta.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white; }
