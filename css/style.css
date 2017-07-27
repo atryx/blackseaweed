@@ -9,6 +9,10 @@
     animation-direction: reverse;
     animation-duration: 4s; }
 
+.construction-text {
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px; }
+
 div {
   margin: 20px; }
 
