@@ -1,0 +1,23 @@
+{
+  "name": "atryx.github.io",
+  "version": "1.0.0",
+  "description": "atryx personal page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atryx/atryx.github.io.git"
+  },
+  "author": "Mihai Lita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atryx/atryx.github.io/issues"
+  },
+  "homepage": "https://github.com/atryx/atryx.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
