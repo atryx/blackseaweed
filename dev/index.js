@@ -1,6 +1,22 @@
+import _ from 'lodash';
+import './style.scss';
+
 var targetDate = new Date("Sep 1, 2017 00:00:00").getTime();
 
-var x = setInterval(function() {
+function component() {
+    var element = document.createElement('div');
+
+    // Lodash, currently included via a script, is required for this line to work
+    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+    element.classList.add('hello');
+
+    return element;
+}
+
+document.body.appendChild(component());
+
+
+var x = setInterval(function () {
     var currentDate = new Date().getTime();
 
     var remainingTime = targetDate - currentDate;
