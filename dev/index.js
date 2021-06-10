@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import './style.scss';
 
-var targetDate = new Date("Sep 1, 2017 00:00:00").getTime();
+var targetDate = new Date("Jul 16, 2021 00:00:00").getTime();
 
 var x = setInterval(function () {
     var currentDate = new Date().getTime();
